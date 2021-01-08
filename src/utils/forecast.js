@@ -17,7 +17,8 @@ request({url,json:true},(error,{ body })=>{
    }
    else
    {
-        callback(undefined,'<br>Todays weather : '+body.weather[0].main+'<br><br> Wheather Description : '+body.weather[0].description+'<br><br>Temperature : '+body.main.temp+' degree C')
+       //console.log(body)
+        callback(undefined,'<br>Todays weather : '+body.weather[0].main+'<br><br> Wheather Description : '+body.weather[0].description+'<br><br>Temperature : '+body.main.temp+' degree C<br><br>Temperature Max : '+body.main.temp_max+' degree C<br><br>Temperature Min : '+body.main.temp_min+' degree C<br><br>Humidity : '+body.main.humidity+' %')
    }
 })
 
