@@ -17,7 +17,7 @@ request({url,json:true},(error,{ body })=>{
    }
    else
    {
-        callback(undefined,'<br>Todays weather : '+body.weather[0].main+'<br><br> Wheather Description : '+body.weather[0].description+'<br><br>Temperature : '+body.main.temp)
+        callback(undefined,'<br>Todays weather : '+body.weather[0].main+'<br><br> Wheather Description : '+body.weather[0].description+'<br><br>Temperature : '+body.main.temp+' degree C')
    }
 })
 
