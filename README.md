@@ -14,10 +14,11 @@ https://desolate-ocean-09327.herokuapp.com/
 To Run this application in your local machine:
 
 just Clone it .
-Run "npm i".
-run "node src/app.js" or "npm run start" or
-"npm i nodemon" => "npm run dev"
-Then visit http://localhost:3000/
+1) Run "npm i".
+2) run "node src/app.js" or "npm run start" or
+3)(optional)"npm i nodemon" => "npm run dev"
+4)Then visit http://localhost:3000/ .
+
 Run the above commands by taking it to Weather-App Directory.
 
 For any suggestion/improvement in this, you are most welcome, just Fork it & send me a pull request.
