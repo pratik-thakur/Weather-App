@@ -15,9 +15,9 @@ To Run this application in your local machine:
 
 just Clone it .
 1) Run "npm i".
-2) run "node src/app.js" or "npm run start" or
-3)(optional)"npm i nodemon" => "npm run dev"
-4)Then visit http://localhost:3000/ .
+2) run "node src/app.js" or "npm run start" 
+3) (optional)"npm i nodemon" => "npm run dev"
+4) Then visit http://localhost:3000/ .
 
 Run the above commands by taking it to Weather-App Directory.
 
