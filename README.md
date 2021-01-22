@@ -6,6 +6,7 @@ This is an Node js + Express + handlebars based Weather application that fetches
 
 Here you can check the live weather updates of the whole world .
 
+This is basically an Api that calls 2 different api and display the Information.
 In this application i had used mapbox api to fetch latitude and longitude and then passes it to open weather api from where i get json based data of weather of that particular location.
 
 Visit thit application at :
