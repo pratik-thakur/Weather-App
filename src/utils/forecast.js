@@ -2,7 +2,7 @@ const request = require('request')
 
 const forecast = (latitude , longitude , callback) =>{
 
-    const url ='https://api.openweathermap.org/data/2.5/weather?lat='+encodeURIComponent(latitude)+'&lon='+encodeURIComponent(longitude)+'&appid=5ae84c9dac9e6560b6834414b89401d0&units=metric'
+    const url ='https://api.openweathermap.org/data/2.5/weather?lat='+encodeURIComponent(latitude)+'&lon='+encodeURIComponent(longitude)+'&appid='+encodeURIComponent(process.env.OPENW_API_KEY)+'&units=metric'
 
 request({url,json:true},(error,{ body })=>{
  // const data = JSON.parse(response.body)
